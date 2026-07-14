@@ -16,6 +16,25 @@ Servidor: Oracle QAD **ERP-PROD** (`oracle-host.example / ORCLPDB1`), esquema `Q
 
 La aplicación es de **escritorio (PySide6/Qt)**: un solo ejecutable con dos ventanas.
 
+## Vista previa
+
+**Dashboard — vista de Materiales:** KPIs de avance por dominio (ST / RSS), clasificación
+de revisión, decisiones por estado y seguimiento de la carga a SAP.
+
+![Dashboard de Gobernanza — Materiales](docs/dashboard-materiales.png)
+
+<details>
+<summary>Ver la vista de Proveedores 🏢</summary>
+
+Mismo modelo aplicado al maestro de proveedores (llave = RFC, duplicados ST ∩ RSS,
+situación de Business Partner y extensión a la sociedad FI 1200):
+
+![Dashboard de Gobernanza — Proveedores](docs/dashboard-proveedores.png)
+
+</details>
+
+> _Cifras de ejemplo ficticias, generadas para la captura._
+
 ---
 
 ## Las dos herramientas

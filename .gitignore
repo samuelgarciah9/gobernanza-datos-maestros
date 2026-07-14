@@ -1,0 +1,18 @@
+# Credenciales — NUNCA subir
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Salida de build (regenerable con build/build_installer.ps1)
+build/dist/
+build/work/
+build/installer_output/
+
+# Datos de negocio / archivos de trabajo
+entregables/
+*.xlsx
+
+# Configuración local de Claude Code
+.claude/settings.local.json
